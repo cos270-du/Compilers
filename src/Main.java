@@ -14,6 +14,7 @@ public class Main {
         final int BLOCK_COMMENT = 2;  // 多行注释 /* */
         final int IN_STRING = 3;      // 字符串内部 "..."
 
+
         int state = CODE;
         int c;
         int prevC = -1; // 记录上一个字符，用来防范转义 \" 和 */
