@@ -14,7 +14,6 @@ public class Main1 {
 
             for (int i = 0; i < line.length(); i++) {
                 char c = line.charAt(i);
-
                 // 1. 处理字符串状态 
                 // 2. 遇到注释  
                 // 3. 遇到非空白字符，标记本行有实际代码
