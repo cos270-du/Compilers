@@ -17,6 +17,7 @@ public class MainB {
                 String str=sc.nextLine();
 
 
+
                 if (Pattern.matches(regex, str)) {
                     System.out.println("yes");
                 } else {
