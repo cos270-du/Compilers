@@ -17,7 +17,6 @@ public class MainC {
                     System.out.println("Case #"+k+":Yes, I like it!");
                 }
             }
-
         }
         sc.close();
     }

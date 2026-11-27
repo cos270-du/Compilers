@@ -16,8 +16,6 @@ public class MainB {
                 //trim不要
                 String str=sc.nextLine();
 
-
-
                 if (Pattern.matches(regex, str)) {
                     System.out.println("yes");
                 } else {

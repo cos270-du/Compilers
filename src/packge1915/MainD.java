@@ -20,7 +20,6 @@ public class MainD {
                         break;//这个长度i已经不满足
                     }
                 }
-
                 if (flag) {
                     System.out.println(len/i);
                     break;
